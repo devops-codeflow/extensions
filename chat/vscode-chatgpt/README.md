@@ -1,38 +1,49 @@
+<h2 align="center"><img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/chatbot.png?raw=true" height="64"><br>
 <h3 align="center">
-Codeflow - VS Code Chat GPT extension
+Codeflow - VS Code ChatGPT extension
 </h3>
 <p align="center"><strong>Prompt OpenAI's GPT-4, GPT-3.5, GPT-3 and Codex models within Visual Studio Code</strong></p>
 
-
-Forked from [ChatGPT - Genie AI](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
-
-## Features
+# Level up your developer experience with Codeflow ChatGPT
 
 - ➕ Use GPT-4, GPT-3.5, GPT3 or Codex models using your OpenAI API Key
 - 📃 Get streaming answers to your prompts in sidebar conversation window
 - 🔥 Stop the responses to save your tokens.
 - 📝 Create files or fix your code with one click or with keyboard shortcuts.
-- ➡️ Export all your conversation history at once in Markdown format.
-- Automatic partial code response detection. Continues and combines automatically, when response is cut off.
-- Ad-hoc prompt prefixes for you to customize what you are asking ChatGPT
-- Edit and resend a previous prompt
-- Copy, insert or create new file from the code, ChatGPT is suggesting right into your editor.
+- ✨ Automatic partial code response detection. Continues and combines automatically, when response is cut off.
+- 💡 Ad-hoc prompt prefixes for you to customize what you are asking ChatGPT
+- 💬 Edit and resend a previous prompt
+- 📝 Copy, insert or create new file from the code, ChatGPT is suggesting right into your editor.
 
-## License
+# Features
+The extension comes with:
+ - conversation window
 
-> If you are developing completely another extension and release it to the public, make sure you follow this.
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/conversation.gif?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
 
-This project is released under ISC License - See root License for details. Copyright notice and the respective permission notices must appear in all copies.
+ - copy/move suggested code into editor with one-click
 
-## How to build and run
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/suggested-code.gif?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
 
-- Clone the repository to your local machine
-- On the root directory, run `yarn` command to install the dependencies listed in `package.json`
-- Within VS Code - run the project by simply hitting `F5`
+ - context menu commands
 
-## How to install locally
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/menu-commands.gif?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
 
-- Install `vsce` if you don't have it on your machine (The Visual Studio Code Extension Manager)
-  - `npm install --global vsce`
-- Run `vsce package`
-- Follow the <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix">instructions</a> and install manually.
+ - customization options for OpenAI's ChatGPT prompts
+
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/prompts.gif?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
+
+# Get Started
+
+## Use defualt OpenAI API base URL
+1. Simply login and ask any coding question.
+
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/start-use-default.png?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
+
+## Use custom OpenAI API base URL
+1. Config the OpenAI API base URL and OpenAI key
+   Get your API Key from here: OpenAI and see OpenAI official docs for available model details.
+
+    <img src="https://github.com/devops-codeflow/extensions/blob/main/chat/vscode-chatgpt/images/start-use-custom.png?raw=true" alt="Codeflow: Conversations" style="max-width: 100%;max-height: 480px;">
+
+2. Login and ask any coding question.
